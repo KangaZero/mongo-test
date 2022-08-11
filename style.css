@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.green{
+    color:green;
+}
+.thicc{
+    font-size: 30px;
+}
+.smol{
+    font-size:8px;
+}
+.center{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+.comic_sans{
+    font-family:"Comic Sans", Arial, Helvetica, sans-serif;
+    /* fallback gang */
+}
+.extra{
+    font-weight:bold;
+    color:orange;
+    font-size:26px;
+}
+.styledFont{
+    color:cornflowerblue;
+}
+#styledImage{
+    border-width: 1px;
+    border-color:blueviolet;
+    border-style: double;
+    box-shadow: 5px 10px;
+}

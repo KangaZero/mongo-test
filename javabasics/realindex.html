@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Watch That Box</title>
+</head>
+<style>
+    button {
+        font-family:"Comic Sans", Arial, Helvetica, sans-serif;
+        padding: 1.1rem;
+        cursor:crosshair;
+    }
+    body{
+        background-color: blanchedalmond;
+    }
+</style>
+<body>
+
+    <p>Press the buttons to change the box!</p>
+
+    <div id="box" style="height:150px; width:150px; background-color:orange; margin:25px"></div>
+
+    <button onclick="grow()" id="button1">Grow</button>
+    <button onclick="blue()" id="button2">Blue</button>
+    <button onclick="fade()" id="button3">Fade</button>
+    <button onclick="reset()" id="button4">Reset</button>
+    <button onclick= "special()" id="button5">Special</button>
+
+    <div id ="box2" style="height: 150px; width: 150px; background-color: black;"></div>
+    
+    <button onclick="what()" id="button6">What?</button>
+
+    <script type="text/javascript" src="realjavascript.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+header, section, footer{
+    display:block;
+    border: 2px solid brown;
+}
+
+h1{
+    text-align: center;
+}
+
+.sub_head_text{
+    text-align: center;
+    border: 2px solid black;
+}
+/*
+.content_box{
+    display: inline-block;
+    flex-flow: row
+}
+*/
+
+.content_box div{
+   display: inline-flex;
+    width: 30%;
+    margin: 10px;
+    border: 2px solid blue;
+}

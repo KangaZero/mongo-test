@@ -1,0 +1,22 @@
+<!DOCTYPE html> 
+<html>
+    <body>
+        <p id="text">I am a text</p>
+        <button onclick="fade()">Fade</button>
+        <button onclick="yellow()">yellow</button>
+        <button onclick="yell()">yell</button>
+        <p style="display:none" id="text2">YES YOU ARE</p>
+    </body>
+    <script> 
+        function fade() {
+            document.getElementById("text").innerHTML="";
+        }
+        function yellow(){
+            document.getElementById("text").style.color ="yellow";
+        }
+        let text = "Yes you are"
+        function yell(){
+            document.getElementById("text").innerhtml =  text;
+        }
+    </script>
+</html>
